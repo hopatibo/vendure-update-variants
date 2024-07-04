@@ -16,12 +16,14 @@ Updates price and stockOnHand given in the vendure CSV format for existing varia
 If a field (price/stockOnHand ) is empty (only whitespace characters) it is not updated for that variant.
  The sku,price and stockOnHand is needed, all other fields are optional/don't care.
 
-```example csv-file:
+```
+example csv-file:
 sku,price,stockOnHand
 L2201308,199.00 ,12
 L2201508,139.00 , 
 L2201316,       ,89 
-L2201516,2299.00,10 ```
+L2201516,2299.00,10
+```
 
 ## Author
 Hans Ophüls
